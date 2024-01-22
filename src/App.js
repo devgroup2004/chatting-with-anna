@@ -6,11 +6,13 @@ import './App.css';
 import SignIn from './pages/auth/signin';
 import SignUp from './pages/auth/signup';
 import ChangePass from './pages/auth/changepass';
+import Chat from './pages/chat';
 
 const routes = [
   {path: '/auth/signin', component: SignIn},
   {path: '/auth/signup', component: SignUp},
-  {path: '/auth/changepass', component: ChangePass}
+  {path: '/auth/changepass', component: ChangePass},
+  {path: '/mainboard', component: Chat}
 ]
 
 function App() {
