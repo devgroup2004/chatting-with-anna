@@ -1,4 +1,4 @@
-export default function BuyProduct() {
+const BuyProduct = () => {
     return (
         <>
             <div>Your Cart</div>
@@ -8,3 +8,5 @@ export default function BuyProduct() {
         </>        
     )
 }
+
+export default BuyProduct;
