@@ -5,6 +5,6 @@
         @apply bg-gray-400 flex justify-start items-center font-bold text-white text-2xl p-2;
     }
     .my-card-body {
-        @apply bg-white grid grid-cols-4 gap-4 p-4;
+        @apply bg-white p-4;
     }
 }

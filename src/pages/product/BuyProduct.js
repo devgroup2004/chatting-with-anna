@@ -7,7 +7,7 @@ const BuyProduct = () => {
                 <div className="my-card-header">
                     <p className="ml-10 mr-10">Your Cart</p>
                 </div>
-                <div className="my-card-body">
+                <div className="my-card-body gap-4 grid grid-cols-4 ">
                     <div className="border border-gray-300 col-span-1"> image </div>
                     <div className="border border-gray-300 col-span-3">
                         <p className="text-2xl">Vinut Sparkling Watermelon Juice, 6 x 11 Fl oz Cans, Non-GMO, No added Sugar, artificial preservatives, flavors, or colors, Rich in in vitamins A, C, and B6, antioxidants</p>
@@ -18,7 +18,7 @@ const BuyProduct = () => {
                 <div className="my-card-header">
                     <p className="ml-10 mr-10">Order Summary</p>
                 </div>
-                <div className="bg-white p-4">
+                <div className="my-card-body">
                     Some comment
                 </div>
             </div>
@@ -28,7 +28,7 @@ const BuyProduct = () => {
                     <div className="my-card-header">
                         <p className="pl-10 pr-10">Your Detail</p>
                     </div>
-                    <div className="bg-white p-4">
+                    <div className="my-card-body">
                         Some comment
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const BuyProduct = () => {
                     <div className="my-card-header">
                         <p className="pl-10 pr-10">Payment Method</p>
                     </div>
-                    <div className="bg-white p-4">
+                    <div className="my-card-body">
                         Some comment
                     </div>
                 </div>
