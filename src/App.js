@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import Layout from './components/layout';
 import './App.css';
-import "./globals.css";
+// import "./globals.css";
 
 //import pages
 import SignIn from './pages/auth/signin';
