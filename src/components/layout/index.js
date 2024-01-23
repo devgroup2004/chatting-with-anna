@@ -3,6 +3,7 @@ import Footer from "./footer";
 import Header from "./header";
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import AuthProvider from '../../util/AuthProvider';
 
 const Layout  = ({ routes }) => {
     return(
@@ -14,7 +15,10 @@ const Layout  = ({ routes }) => {
                         <Routes>
                         {
                             routes.map((route, index) => (
-                                <Route key = {index} path = {route.path} element={<route.component />}/>
+                                <Route key = {index} path = {route.path} 
+                                    element={!route.isAuthRoute ? <route.component /> 
+                                    : <AuthProvider><route.component /></AuthProvider>}>
+                                </Route>
                             ))
                         }
                         </Routes>

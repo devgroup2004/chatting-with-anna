@@ -1,7 +1,7 @@
-const MenuItem = ({text}) => {
+const MenuItem = ({text, }) => {
     return(
         <>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer text-lg">
             {text}
         </div>
         </>
@@ -10,9 +10,9 @@ const MenuItem = ({text}) => {
 const header = () => {
     return(
         <>
-        <div className="bg-white flex justify-between p-5 text-black">
+        <div className="bg-white flex justify-between py-4 px-3 text-black">
             <div className="flex gap-5">
-                <div className="pr-10 border-r-2 border-black select-none">Chatbot with Anna</div>
+                <div className="pr-10 border-r-2 border-black select-none text-lg">Chatbot with Anna</div>
                 <MenuItem text={"About Us"}/>
                 <MenuItem text={"Support"}/>
                 <MenuItem text={"Products"}/>

@@ -1,0 +1,17 @@
+.chat-container{
+    @apply h-full flex flex-col p-5;
+    .message-list{
+        @apply flex-1 p-10 overflow-auto flex flex-col gap-y-10;
+        contain: strict;
+    }
+    .bottom-section{
+        @apply flex items-center gap-5;
+        .text-input{
+            @apply outline-none bg-[#F5F5F5] rounded-3xl bg-[#F5F5F5] flex-1 text-xl py-2 px-8
+                    border border-slate-400;
+        }
+        .btn{
+            @apply bg-[#19A5F3] rounded-3xl text-white text-xl py-2 px-8 cursor-pointer;
+        }
+    }
+}
