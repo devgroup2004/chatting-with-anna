@@ -3,13 +3,13 @@ import Layout from './components/layout';
 import './App.css';
 
 //import pages
-import SignIn from './pages/auth/signin';
-import SignUp from './pages/auth/signup';
-import ChangePassword from './pages/auth/changepass';
-import Chat from './pages/chat';
-import Buy from './pages/product/purchase';
-import Home from './pages';
-import ProductDetail from './pages/product/product-detail';
+import SignIn from './pages/auth/signin'; // ala's work
+import SignUp from './pages/auth/signup'; // ala's work
+import ChangePassword from './pages/auth/changepass'; // ala's work
+import Chat from './pages/chat'; // dreamstar's work
+import Buy from './pages/product/purchase'; // aping's work.
+import Home from './pages'; // dreamstar's work
+import ProductDetail from './pages/product/product-detail'; // dreamstar's work
 
 const routes = [
   {path: '/auth/signin', component: SignIn, isAuthRoute : false},
