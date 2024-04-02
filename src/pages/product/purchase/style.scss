@@ -1,0 +1,10 @@
+.my-card {
+    @apply rounded-lg overflow-hidden shadow-md border border-gray-300;
+
+    .my-card-header {
+        @apply bg-gray-400 flex justify-start items-center font-bold text-white text-2xl p-2;
+    }
+    .my-card-body {
+        @apply bg-white p-4;
+    }
+}
